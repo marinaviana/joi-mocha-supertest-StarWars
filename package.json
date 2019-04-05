@@ -1,0 +1,24 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/requests/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "joi": "^14.3.1",
+    "joi-assert": "0.0.3",
+    "mocha": "^6.0.2",
+    "mochawesome": "^3.1.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
