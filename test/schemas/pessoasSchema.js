@@ -15,7 +15,7 @@ const schemaPessoasValido = Joi.object({
   species: Joi.array().required(),
   starships: Joi.array().required(),
   homeworld: Joi.string().required(),
-  name: Joi.string().required(),
+  name: Joi.string().required().valid('Luke Skywalker'),
   vehicles: Joi.array().required(),
 }).required();
 
