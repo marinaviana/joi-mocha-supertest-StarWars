@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/requests/*.js"
+    "test": "mocha --timeout 10000 test/requests/*.js"
   },
   "author": "",
   "license": "ISC",
